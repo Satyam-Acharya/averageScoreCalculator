@@ -1,0 +1,19 @@
+{
+  "name": "scorecard",
+  "version": "1.0.0",
+  "description": "This is the ST1 project of BEEE.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Satyam Acharya",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "node": "^19.1.0",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}

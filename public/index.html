@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score-Card</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <h2>Register</h2>
+        <h2><a href="http://localhost:3000/view">View</a></h2>
+      </header>
+      <form method="POST">
+        <div>
+          <input
+            name="roll"
+            type="number"
+            required
+            placeholder="Roll No."
+            class="details"
+          /><br />
+        </div>
+        <div>
+          <input
+            name="name"
+            type="text"
+            required
+            placeholder="Name"
+            class="details"
+          /><br />
+        </div>
+        <div>
+          <input
+            name="address"
+            type="text"
+            required
+            placeholder="Address"
+            class="details"
+          /><br />
+        </div>
+        <div>
+          <label>Maths</label>
+          <input name="maths" type="number" required />
+        </div>
+        <div>
+          <label>Science</label>
+          <input name="science" type="number" required />
+        </div>
+        <div>
+          <label>Hindi</label>
+          <input name="hindi" type="number" required />
+        </div>
+        <div>
+          <label>English</label>
+          <input name="english" type="number" required />
+        </div>
+        <div>
+          <label>SST</label>
+          <input name="sst" type="number" required />
+        </div>
+        <div>
+          <input type="submit" value="Submit" name="submit" id="submit" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <section>
+      <div id="resDet">
+        <div>
+          <p>Roll: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p id="roll"><%=item.roll%></p>
+        </div>
+        <div>
+          <p>Name: &nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p><%=item.name%></p>
+        </div>
+        <div>
+          <p>Address: &nbsp;</p>
+          <p><%=item.add%></p>
+        </div>
+      </div>
+      <h3>Marks</h3>
+      <hr />
+      <table>
+        <tr>
+          <th>Subject</th>
+          <th>Marks</th>
+        </tr>
+        <tr>
+          <td>Maths</td>
+          <td><%=item.maths%></td>
+        </tr>
+        <tr>
+          <td>Science</td>
+          <td><%=item.science%></td>
+        </tr>
+        <tr>
+          <td>Hindi</td>
+          <td><%=item.hindi%></td>
+        </tr>
+        <tr>
+          <td>English</td>
+          <td><%=item.english%></td>
+        </tr>
+        <tr>
+          <td>SST</td>
+          <td><%=item.sst%></td>
+        </tr>
+      </table>
+
+      <p>Average:</p>
+      <h3 style="display: inline-block"><%=item.avg%></h3>
+      <br />
+      <p>Grade:</p>
+      <h3 style="display: inline-block"><%=item.grade%></h3>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+[
+  {
+    "roll": "1063",
+    "name": "Rakshit Sharma",
+    "add": "#1234 pkl",
+    "maths": "99",
+    "science": "94",
+    "hindi": "50",
+    "english": "10",
+    "sst": "60",
+    "avg": 62.6,
+    "grade": "D"
+  },
+  {
+    "roll": "1174",
+    "name": "samarth sharma",
+    "add": "#4634 secets",
+    "maths": "89",
+    "science": "98",
+    "hindi": "70",
+    "english": "85",
+    "sst": "50",
+    "avg": 78.4,
+    "grade": "C"
+  },
+  {
+    "roll": "1223",
+    "name": "Abhijeet",
+    "add": "karnal",
+    "maths": "85",
+    "science": "92",
+    "hindi": "96",
+    "english": "46",
+    "sst": "83",
+    "avg": 80.4,
+    "grade": "B"
+  }
+]
